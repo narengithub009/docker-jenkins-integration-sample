@@ -16,7 +16,7 @@ public class DockerJenkinsIntegrationApplication {
 	@GetMapping("/msg")
 	public String message() {
 		System.out.println("Docker Jenkins integration....");
-		return "Docker Jenkins integration....";
+		return "Docker Jenkins integration hello world....";
 	}
 
 }
